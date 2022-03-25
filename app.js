@@ -36,8 +36,6 @@ function clearAllTodolist(e) {
 function complited(e) {
     console.log(e.target);
     if (e.target, e.target.matches('button.complited')) {
-        e.target.parentElement.children[0].style.textdecoration = 'line-through'
+        e.target.parentElement.children[0].style.textdecoration = 'line-through' // kar nemikoneeee!!!!!!!!!
     }
 }
-
-// textdecoration = 'line-through';
